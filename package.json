@@ -1,0 +1,18 @@
+{
+  "name": "telegram_bot",
+  "version": "1.0.0",
+  "description": "for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Grigorieva Anastas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  }
+}
